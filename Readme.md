@@ -1,78 +1,58 @@
-# H&S biolab
+# 🩺 신장병 조기 진단 모바일 앱
 
-**성균관대학교 2024 산학 협력 프로젝트** 
+<br/>
 
-<aside>
+## 프로젝트 소개
 
-- **🇬[Github](https://github.com/H-S-Biolab)**
-- **🇳[Notion](https://cookie-process-67f.notion.site/)**
-- ** App Store** 
-- **▶ Google Play Store**
-- **🇫 [Figma](https://www.figma.com/design/LcEW0oalIVIRfc4RlFhhjx/2024_SKKU_H%26Sbiolab_%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=1650-3879&p=f&t=jijAtUDrlEp4BoYg-0)**
-- **🛠️[APK파일](https://drive.google.com/file/d/1WnocRKpvMj5dapnMzOprhA_TB8uMRg9u/view?usp=drive_link)**
-</aside>
+- 초기 증상이 거의 없는 신장 질환의 특성을 고려하여, 조기 발견과 지속적인 건강 관리를 목표로 개발되었습니다.
+- **신장병 조기진단 키트와 연동**하여 검사 결과를 분석하고 데이터를 저장합니다.
+- **건강검진 기록 및 혈액검사 데이터를 통합 관리**할 수 있도록 설계되었습니다.
+- **질환 진행을 예방하고 환자의 삶의 질을 향상시키는 것**을 목표로 합니다.
 
+<br/>
 
-# 🏔️프로젝트 목표
-
-<aside>
-
-신장병은 초기에 증상이 거의 나타나지 않아 조기 진단이 어렵습니다.  
-하지만 신장 기능이 저하되면 심각한 건강 문제로 이어질 수 있으며,  
-말기 신부전으로 발전할 경우 투석이나 신장 이식이 필요하게 됩니다.
-
-2024 H&S biolab 산학 협력 프로젝트는  
-**신장병 조기진단 키트 연동 어플**을 개발해,  
-신장병을 더 일찍 발견하고 치료함으로써  
-장기적인 합병증을 예방하고  
-환자의 삶의 질을 향상시키는 것을 목표로 합니다.
-
-</aside>
+## 팀원 구성
 
 <div align="center">
-  <img src="readme_assets/HS%25E1%2584%2587%25E1%2585%25A1%25E1%2584%258B%25E1%2585%25B5%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2585%25E1%2585%25A2%25E1%2586%25B8.png" width="50%" />
+
+  <table> 
+    <tr> 
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/62469125?v=4" width="100px"></td> 
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/163401793?v=4" width="100px"></td> 
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/110738697?v=4" width="100px"></td> 
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/92612072?v=4" width="100px"></td> 
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/149086418?v=4" width="100px"></td> 
+    </tr>
+    <tr> 
+      <td align="center"><a href="https://github.com/beefed-up-geek">곽태윤</a> <br>Tech Lead<br/>BE</td>
+      <td align="center"><a href="https://github.com/clrdl">김지수</a> <br>FE</td>
+      <td align="center"><a href="https://github.com/drdr3040">오지훈</a> <br>FE</td>
+      <td align="center"><a href="https://github.com/onaflw">최한송</a> <br>Team Lead<br/>BE</td> 
+      <td align="center"><a href="https://github.com/yellowacidblack">황재현</a> <br>FE</td> 
+    </tr> 
+  </table>
+
 </div>
 
-# 😃팀원
+<br/>
 
-<table>
-  <thead>
-    <tr>
-      <th>이름</th>
-      <th>1학기 업무</th>
-      <th>2학기 업무</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>곽태윤</td>
-      <td>백엔드 / Tech Lead</td>
-      <td>로그인 / 건강검진 back &amp; front</td>
-    </tr>
-    <tr>
-      <td>김지수</td>
-      <td>프론트엔드 / Product Manager</td>
-      <td>홈 / 사용자 정보 / 푸시알람 back &amp; front<br/>Google Analytics 연동</td>
-    </tr>
-    <tr>
-      <td>오지훈</td>
-      <td>프론트엔드 / SW developer</td>
-      <td>Team Leader<br/>키트 검사 frontend &amp; 비전 모델 개발</td>
-    </tr>
-    <tr>
-      <td>최한송</td>
-      <td>백엔드 / Team Leader</td>
-      <td>의약품 검색 back &amp; front<br/>CI / CD 환경 구축</td>
-    </tr>
-    <tr>
-      <td>황재현</td>
-      <td>프론트엔드 / SW developer</td>
-      <td>투석병원 검색 back &amp; front<br/>키트 인식 비전 모델 개발</td>
-    </tr>
-  </tbody>
-</table>
+## 기술 스택
 
-# 🏆 프로젝트 성과
+- **Frontend**: React Native, Kakao API, Google APIs, Apple Developer
+- **Backend**: Node.js, Express.js, MongoDB, Meilisearch
+- **Infrastructrue**: AWS EC2, Amazon S3
+- **External APIs**: ScalaWox API, Codef API, HIRA Open Data, MFDS Open Data
+- **DevOps**: Git, GitHub, GitHub Actions
+
+<br/>
+
+## 아키텍처 다이어그램
+
+![구성도.png](readme_assets/arch.png)
+
+<br/>
+
+## 🏆 프로젝트 성과
 
 - 건강보험심사평가원 보건의료빅데이터활용 창업경진대회 | **우수상**
 - 식품의약품안전처 식의약 데이터 활용 경진대회 | **장려상**
@@ -151,9 +131,6 @@
   <img src="readme_assets/Frame.png" width="100%" />
 </div>
 
-# 🏗️ 앱 구성도
-
-![구성도.png](readme_assets/arch.png)
 
 # 📂 프론트엔드 디렉터리
 
