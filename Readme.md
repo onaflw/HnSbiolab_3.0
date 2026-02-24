@@ -2,7 +2,7 @@
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/146da311-7423-4416-8235-6fd54e057cee" />
 
-<br/>
+<br/><br/>
 
 ## 프로젝트 소개
 
