@@ -110,6 +110,8 @@ npx react-native run-android
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_016.jpeg" width="30%" />
 </p>
 
+<br/>
+
 ### 2. 건강검진 내역 불러오기
 
 [Codef API의 건강검진 API](https://developer.codef.io/products/public/each/pp/nhis-health-check)를 통해 보건복지부에서 사용자의 건강검진 기록과 결과 PDF를 불러옵니다. 불러온 결과를 분석하고, 신장병과 긴밀히 연관된 기저질환·성인병 분석도 진행할 예정입니다.
@@ -119,6 +121,8 @@ npx react-native run-android
   &nbsp;&nbsp;&nbsp;
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-15_018.jpeg" width="30%" />
 </p>
+
+<br/>
 
 ### 3. 혈액검사 기록 & 콩팥 건강 분석
 
@@ -131,6 +135,8 @@ npx react-native run-android
   &nbsp;&nbsp;&nbsp;
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_009.jpeg" width="30%" />
 </p>
+
+<br/>
 
 ### 4. 투석병원 & 의약품 검색
 
@@ -149,6 +155,8 @@ npx react-native run-android
   &nbsp;&nbsp;&nbsp;
   <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-16_028.jpeg" width="30%" />
 </p>
+
+<br/>
 
 ### 5. 데일리 체크
 
