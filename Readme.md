@@ -163,6 +163,7 @@ npx react-native run-android
 콩팥 상태를 매일 체크할 수 있는 6가지 항목을 제공하며, 3개 이상 위험 신호가 감지되면 키트 검사를 유도합니다.
 
 <div align="center">
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="20%" />
-  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_010.jpeg" width="20%" />
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_006.jpeg" width="30%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="readme_assets/KakaoTalk_Photo_2024-12-31-14-13-14_010.jpeg" width="30%" />
 </div>
